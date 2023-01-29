@@ -16,13 +16,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
   </head>
 
   <body>
+    <!--------------------- HEADER -------------------
     <header class="header">
-      <div class="container">
+      
         <nav class="navigation">
-          <!--logotype-->
+          
           <a href="./index.html" class="logo logo-gap"
             >Web<span class="logo-first">Studio</span></a
           >
@@ -39,7 +43,7 @@
           </ul>
         </nav>
 
-        <!--Contacts-->
+        
         <ul class="contacts list">
           <li>
             <a href="mailto:info@devstudio.com" class="contacts-mail"
@@ -54,18 +58,20 @@
         </ul>
       </div>
     </header>
+    ---------------------->
 
     <main>
+      <!--------------------hero  ----------------------->
       <section class="hero section">
         <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
       </section>
 
-      <!--mision-->
+      <!---------------------------mision---------------------------------------->
       <section class="mision section">
         <div class="container">
           <h2 class="visually-hidden">About company</h2>
@@ -127,8 +133,8 @@
           </ul>
         </div>
       </section>
-
-      <!--What are we doing-->
+      
+      <!---------------------------section-doing  ----------------->
       <section class="section-doing section">
         <div class="container">
           <h2 class="first-title">What are we doing</h2>
@@ -137,6 +143,9 @@
               <img
                 src="./images/studio-img1.jpg"
                 alt="monitor"
+                srcset="
+                  ./images/studio-img1.jpg 1x, 
+                  ./images/studio-img1-2x.jpg 2x"
                 width="360"
                 height="300"
               />
@@ -145,6 +154,9 @@
               <img
                 src="./images/studio-img2.jpg"
                 alt="layering of the phone screen"
+                srcset="
+                  ./images/studio-img2.jpg 1x, 
+                  ./images/studio-img2-2x.jpg 2x"
                 width="360"
                 height="300"
               />
@@ -153,6 +165,9 @@
               <img
                 src="./images/studio-img3.jpg"
                 alt="phone and laptop"
+                srcset="
+                  ./images/studio-img3.jpg 1x, 
+                  ./images/studio-img3-2x.jpg 2x"
                 width="360"
                 height="300"
               />
@@ -161,7 +176,7 @@
         </div>
       </section>
 
-      <!--Team-->
+      <!---------------------------team --------------------->
       <section class="team section">
         <div class="container">
           <h2 class="first-title">Our Team</h2>
@@ -170,6 +185,9 @@
               <img
                 src="./images/studio-img4.jpg"
                 alt="man with laptop resenting something"
+                srcset="
+                  ./images/studio-img4.jpg 1x, 
+                  ./images/studio-img4-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -214,6 +232,9 @@
               <img
                 src="./images/studio-img5.jpg"
                 alt="young smiling man"
+                srcset="
+                  ./images/studio-img5.jpg 1x, 
+                  ./images/studio-img5-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -258,6 +279,9 @@
               <img
                 src="./images/studio-img6.jpg"
                 alt="young beautiful woman pink warm sweater natural look smiling portrait isolated long hair"
+                srcset="
+                  ./images/studio-img6.jpg 1x, 
+                  ./images/studio-img6-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -302,6 +326,9 @@
               <img
                 src="./images/studio-img7.jpg"
                 alt="confident handsome guy posing against white wall"
+                srcset="
+                  ./images/studio-img7.jpg 1x, 
+                  ./images/studio-img7-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -344,7 +371,8 @@
           </ul>
         </div>
       </section>
-
+    
+      <!-----------------------customers------------------>
       <section class="customers section">
         <div class="container">
           <h2 class="first-title">Customers</h2>
@@ -395,9 +423,11 @@
           </ul>
         </div>
       </section>
+
     </main>
 
     <footer>
+      <!------------------- FOOTER  --------------------->
       <section class="footer section">
         <div class="container">
           <div class="footer-box">
@@ -469,8 +499,10 @@
           </div>
         </div>
       </section>
+    
     </footer>
 
+    <!--------------------- BACKDROP -----------------------
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -549,6 +581,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    --------------------------->
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>

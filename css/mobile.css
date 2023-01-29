@@ -1,0 +1,20 @@
+@media screen and (min-width: 480px) {
+    .container {
+        min-width: 426px;
+    }
+    .hero.section {
+        max-width: 428px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .hero-title {
+        width: 319px;
+    }
+}
+
+/* ---------------section-doing---------------- */
+
+.section-doing {
+    display: none;
+}

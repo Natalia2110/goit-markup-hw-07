@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: 766px;
+        
+    }
+    .hero.section {
+        max-width: 768px;
+        padding-bottom: 108px;
+        background-image: var(--bg-gradient), url(../images/hero-bg-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero.section {
+        background-image: var(--bg-gradient), url(../images/hero-bg-tab-2px.jpg);
+            }
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .hero-title {
+        width: 496px;
+        margin-bottom: 40px;
+        font-size: 56px;
+        line-height: calc(60/56);
+    }
+    /* ---------------mision-------------- */
+
+    .mision-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .mision-item {
+        max-width: 356px;;
+        flex-basis: calc((100%-24px) / 2);
+    }
+    .mision-item .title {
+        text-align: left;
+    }
+
+    /* -------------------team-------------------- */
+    .team {
+        padding-bottom: 104px;
+    }
+    .team-items {
+        row-gap: 64px;
+        column-gap: var(--gap-right-gallery) ;
+    }   
+    .team-list {
+        max-width: calc((100%-24px)/2);
+    }
+
+    /* ----------------------customers---------------- */
+
+    .customers-list {
+        column-gap: 24px;
+    }
+    .customers-item {
+        flex-basis: calc((100%-48px)/3);
+        max-width: 168px;
+    }
+
+    /* ------------------FOOTER----------------------- */
+}
