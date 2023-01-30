@@ -19,6 +19,7 @@
     }
     .footer>.container{
         padding-left: 106px;
+        column-gap: 24px;
     }
 
 }
@@ -75,7 +76,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        column-gap: 24px;
+        
         text-align: left;
         
     }
