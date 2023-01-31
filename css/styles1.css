@@ -277,7 +277,7 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .title {
     font-weight: 500;
@@ -622,7 +622,6 @@
     text-decoration: none;
 }
 .gallery {
-
     display: flex;
     flex-wrap: wrap;
     column-gap: var(--gap-right-gallery);
@@ -656,10 +655,8 @@
 
 .overlay {
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
-
 .overlay-card {
     position: absolute;
     width: 100%;
@@ -667,22 +664,17 @@
     top: 0;
     left:0;
     background-color: var(--primary-brand-color);
-    
     transform: translateY(100%);
     transition: transform var(--transition-duration) var(--timing-function);
-
 }
-
 .gallery-link:hover .overlay-card,
 .gallery-link:focus .overlay-card {
     transform: translateY(0);
 } */
 
 /* .overlay-text{
-
     position: absolute;
     padding: 40px 32px 164px 32px;
-    
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -918,4 +910,25 @@
 
 .logo {
     display: flex;
+}
+
+.portfolio-btn {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    align-items: center;
+    text-align: center;
+}
+.btn {
+    font-weight: 500;
+    font-size: inherit;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: 4px;
+    fill: var(--white-title-color);
+
+    transition: color var(--transition-duration) var(--timing-function), background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }

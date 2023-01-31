@@ -1,3 +1,23 @@
+.portfolio.section {
+    padding-top: 48px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 16px;
+    margin-bottom: 48px;
+    width: 290px;
+}
+
+.portfolio-btn {
+    padding: 8px 16px;
+}
+
+
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .container {
