@@ -119,7 +119,7 @@
     }
     
     .gallery  .gallery-list{
-        max-width: calc((100% - 24px) / 2);
-        
+        flex-basis: calc((100% - 24px) / 2);
+        max-width: 356px;
     }
 }
