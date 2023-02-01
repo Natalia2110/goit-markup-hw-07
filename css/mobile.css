@@ -50,6 +50,9 @@
     pointer-events: none;
 
 }
+.no-scroll {
+    overflow: hidden;
+}
 .mob-menu-header {
     position: fixed;
     top: 0;
@@ -97,8 +100,6 @@
     color: var(--button-active-color);
 }
 
-.mob-menu-contacts {
-}
 .mob-contacts-tel {
     display: inline-block;
     margin-bottom: 40px;
@@ -149,6 +150,7 @@
     .hero-title {
         width: 319px;
     }
+    
 
 }
 
