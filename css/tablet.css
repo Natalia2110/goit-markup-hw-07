@@ -4,6 +4,14 @@
     .container {
         width: 766px;
     }
+
+    .contacts-mail,
+    .contacts-tel {
+        font-size: 12px;
+        line-height: calc(16/12);
+        letter-spacing: 0.04em;
+    }
+
     .hero.section {
         max-width: 768px;
         padding-bottom: 108px;
@@ -33,6 +41,11 @@
 
 
 @media screen and (min-width: 768px) {
+
+    .logo-gap {
+        
+        margin-right: 123px;
+    }
 
     .navigation {
         display: flex;
@@ -101,12 +114,8 @@
         text-transform: uppercase;
     }
     .contacts-mail,
-    .contacts-tel{
+    .contacts-tel {
         display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
         text-decoration: none;
         color: var(--body-text-color);
         transition: color var(--transition-duration) var(--timing-function);

@@ -11,8 +11,20 @@
         padding-bottom: 120px;
     }
     /* -------------------HEADER-------------------- */
-    .contacts-mail {
-        margin-right: 40px; 
+    .logo-gap {
+        margin-right: 76px;
+    }
+    
+    .contacts {
+        flex-direction: row;
+        gap: 40px;
+        
+    }
+    .contacts-mail,
+    .contacts-tel{
+        
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     /* -------------------HERO----------------------- */

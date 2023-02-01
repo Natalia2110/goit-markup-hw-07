@@ -121,20 +121,10 @@
     color: var(--body-text-color);
     
 }
-
-
 .mob-soc-list {
     display: flex;
     justify-content: space-between;
     
-}
-.soc-item {
-}
-.soc-link {
-}
-.link {
-}
-.soc-icon {
 }
 
 
