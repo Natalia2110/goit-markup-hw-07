@@ -70,10 +70,17 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px; 
-  
 }
 
 /* -----------------header-------------- */
+.header {
+    border-bottom: 1px solid var(--accent-color);
+}
+.header>.container {
+    display: flex;
+    align-items: center ;
+}
+
 .logo {
     
     font-family: 'Raleway', sans-serif;
@@ -100,6 +107,10 @@ body {
     color: var(--titele-color);
     
 } 
+.navigation-list,
+.contacts {
+    display: none;
+}
 
 
 /* --------------------hero------------------- */

@@ -10,7 +10,12 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
+    /* -------------------HEADER-------------------- */
+    .contacts-mail {
+        margin-right: 40px; 
+    }
 
+    /* -------------------HERO----------------------- */
     .hero.section {
         max-width: 1440px;
         padding-top: 188px;
