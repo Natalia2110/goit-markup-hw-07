@@ -85,6 +85,7 @@
     text-decoration: none;
     text-transform: capitalize;
     color: var(--titele-color);
+    transition: color var(--transition-duration) var(--timing-function);
 }
 .mob-menu-link:hover,
 .mob-menu-link:focus,
@@ -119,6 +120,7 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--body-text-color);
+    transition: color var(--transition-duration) var(--timing-function);
     
 }
 .mob-soc-list {
