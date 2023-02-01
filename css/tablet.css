@@ -225,4 +225,12 @@
         flex-basis: calc((100% - 24px) / 2);
         max-width: 356px;
     }
+
+    /* ------------------backdrop------------------- */
+
+    .modal {
+        min-width: 408px;
+        min-height: 576px;
+    }
+    
 }
