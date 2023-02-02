@@ -36,6 +36,9 @@
     .button {
         margin-bottom: 64px;
     }
+    .gallery {
+        row-gap: 72px;
+    }
 
 }
 
@@ -146,9 +149,7 @@
     /* ---------------mision-------------- */
 
     .mision-list{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 24px;
+        column-gap: 24px;
     }
     .mision-item {
         max-width: 356px;;

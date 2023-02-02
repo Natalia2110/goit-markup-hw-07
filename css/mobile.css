@@ -131,6 +131,7 @@
 }
 
 @media screen and (max-width: 479px)  {
+    
     .modal-close-btn {
         right: 44px;
     }
@@ -166,9 +167,13 @@
     .hero-title {
         width: 319px;
     }
-    
-
 }
+
+/* @media screen and (max-width: 767px) {
+    .mision-item .text {
+        margin-bottom: 72px;
+    }
+} */
 
 
 

@@ -213,11 +213,15 @@ body {
     line-height: 1.11;
     text-align: center;
 }
-.first-title,
-.mision-item .text {
-    margin-bottom: 72px;
-    
+.first-title {
+    margin-bottom: 72px;   
 }
+.mision-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:72px;
+}
+
 .mision-item .title{
     margin-bottom: 8px;
 }
