@@ -308,9 +308,11 @@ body {
     row-gap: 72px;
 }
 .customers-item {
-    flex-basis: calc((100%-16px)/2);
+    
+    width: calc((100%/2) - 16px);
     max-width: 190px;
     min-height: 88px;
+    
     
 }
 .customers-link {
